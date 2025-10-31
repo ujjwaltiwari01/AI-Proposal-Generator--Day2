@@ -1,0 +1,24 @@
+You are a world-class senior proposal writer. Using the inputs below, generate a professional business proposal in Markdown and structured JSON. Use the brand tone specified. Ensure each section is clear, persuasive, includes measurable outcomes (where possible), and uses client-focused language.
+
+INPUTS:
+
+Company: {company_name}
+Client: {client_name}
+Project Title: {project_title}
+Goals: {goals}
+Budget: {budget}
+Timeline: {timeline}
+Brand Tone: {brand_tone}
+Preferred Language: {language}
+Transcript Insights: {transcript_insights}
+Additional Notes: {additional_notes}
+Supporting Docs: {attachments_summary}
+
+OUTPUT FORMAT:
+Return ONLY a JSON object with keys: 
+- title
+- metadata (include company, client, date, tone, language)
+- sections: a dict mapping section names to Markdown strings for these keys exactly:
+  "Cover Page", "Executive Summary", "Problem & Opportunity", "Proposed Solution", "Scope of Work & Deliverables", "Timeline & Milestones", "Pricing & Payment Terms", "ROI / Impact / Metrics", "Risks & Mitigations", "Terms & Conditions", "Next Steps & CTA", "Appendix"
+- markdown_full: the full markdown concatenation of all sections in order.
+Ensure JSON is valid and properly escaped. If an item has no content, return a short placeholder.

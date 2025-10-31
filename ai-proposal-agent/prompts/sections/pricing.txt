@@ -1,0 +1,5 @@
+Write a transparent "Pricing & Payment Terms" section.
+- Show line items or package pricing consistent with budget: {budget}
+- Include payment schedule and assumptions.
+- Tone: {brand_tone}
+Return only Markdown.

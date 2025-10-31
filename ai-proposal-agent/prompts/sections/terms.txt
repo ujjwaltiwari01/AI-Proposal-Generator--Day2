@@ -1,0 +1,4 @@
+Write standard "Terms & Conditions" suitable for a SaaS/consulting project.
+- Include IP, confidentiality, termination, and warranty disclaimers.
+- Tone: {brand_tone}
+Return only Markdown.

@@ -1,0 +1,5 @@
+Write a realistic "Timeline & Milestones" section.
+- Provide phases with weeks/dates if given: {timeline}
+- Include key milestones and acceptance criteria.
+- Tone: {brand_tone}
+Return only Markdown.

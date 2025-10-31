@@ -1,0 +1,5 @@
+Write a detailed "Scope of Work & Deliverables" section.
+- Bullet the phases and deliverables.
+- Scope must align with goals: {goals}
+- Tone: {brand_tone}
+Return only Markdown.

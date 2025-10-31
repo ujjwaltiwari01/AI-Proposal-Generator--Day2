@@ -1,0 +1,6 @@
+Write an Executive Summary (3-5 short paragraphs, 200-300 words) that:
+- Describes the client's situation and the proposed solution.
+- Highlights 2–3 key outcomes / metrics.
+- Uses brand tone: {brand_tone}
+- Use phrases from Transcript Insights when relevant.
+Return only Markdown for this section.

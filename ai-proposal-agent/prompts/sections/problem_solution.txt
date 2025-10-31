@@ -1,0 +1,5 @@
+Write a clear "Problem & Opportunity" section.
+- Summarize current challenges and the opportunity.
+- Anchor in transcript insights: {transcript_insights}
+- Tone: {brand_tone}
+Return only Markdown.
