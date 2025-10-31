@@ -112,12 +112,7 @@ python -m streamlit run app.py
 
 ---
 
-## 🖼️ Screenshots
-- Home + Inputs
-- Live Preview with Logo
-- Copy to Google Docs + Exports
 
-_(Add your own screenshots or GIF here.)_
 
 ---
 
